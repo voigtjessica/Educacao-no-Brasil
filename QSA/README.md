@@ -6,7 +6,7 @@ Todos eles contém a mesma estrutura:
 
 Nome variável | Descrição|
 |:---:|:----|
-|dado_original| Dado como foi coletado a partir da área de transparência do Ministério da Fazenda|
+|dado_original| Dado como foi coletado a partir da área de transparência da Receita Federal|
 |TIPO| 01 = "informação da empresa", 02 = "informação do sócio" |
 |NM_TIPO|descrição do tipo|
 |CNPJ| CNPJ da empresa, somente números|                    
@@ -17,7 +17,7 @@ Nome variável | Descrição|
 |QUALIFICACAO_DO_SOCIO| Código da qualificação do sócio|  
 |NM_QUALIFICACAO_DO_SOCIO| Descrição da qualificação do sócio|
 |NOME_DO_SOCIO| Nome da pessoa|
-|ATUALIZACAO*| Data da atualização desse dado, de acordo com o Ministério da Fazenda|
+|ATUALIZACAO*| Data da atualização desse dado, de acordo com a Receita Federal|
 |UF*| Unidade federativa do dado| 
 
 *Dados não originais, inseridos pela Tbrasil.
