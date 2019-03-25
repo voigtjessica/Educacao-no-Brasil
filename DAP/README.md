@@ -1,6 +1,6 @@
 ## DAP ativas
 
-Os arquivos contidos nesse repositório são alguns dos repositórios das DAPs ativas. Os arquivos maiores que 25 mb não puderam ser upados no github e estão no drive da TB. 
+Os arquivos contidos nesse repositório são alguns dos repositórios das DAPs ativas. Os arquivos maiores que 25 mb não puderam ser upados no github e estão no hd externo da TB. 
 
 A DAP identifica e qualifica as unidades familiares de produção rural (UFPR) e suas formas associativas organizadas em pessoas jurídicas. Essa identificação é necessária para que esses trabalhadores tenham acesso ao PRONAF, e foi criada como forma a impedir desvios das apropriações dos subsídios pelos agricultores não familiares.
 
