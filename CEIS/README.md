@@ -7,11 +7,17 @@
 
 *Abrangência:* nacional 
 
-*Atualização:* diária
+*Atualização:* diária (prazo legal de cinco dias úteis, a contar da publicação da sanção)
 
-*Primeira atualização:* 
+*Primeira atualização:* Penalidades vigentes, coletadas a partir de 2008.
 
-*Descrição:* O Cadastro Nacional de Empresas Inidôneas e Suspensas (CEIS) apresenta a relação de empresas e pessoas físicas que sofreram sanções que implicaram a restrição de participar de licitações ou de celebrar contratos com a Administração Pública.
+*Descrição:* O Cadastro Nacional de Empresas Inidôneas e Suspensas (CEIS) apresenta a relação de empresas e pessoas físicas que sofreram sanções que implicaram a restrição de participar de licitações ou de celebrar contratos com a Administração Pública. Diz respeito à todos os órgãos da administração pública. Contém apenas as penalidades vigentes.
+
+Metodologia/Fontes de Informação
+    1. Registro, pelos órgãos e entidades do Poder Executivo Federal, das respectivas penalidades no Sistema CGU-PJ; 
+    2. Extração das penalidades decorrentes de improbidade administrativa via importação de dados do Cadastro Nacional de Condenações por Improbidade Administrativa e Inelegibilidade (CNCIAI), mantido pelo Conselho Nacional de Justiça;
+    3. Extração das penalidades decorrentes de decisão do Tribunal de Contas da União via importação de dados do Sistema Inabilitados e Inidôneos, mantido pelo Tribunal; e 
+    4. Registro, pelos órgãos e entidades das demais esferas e poderes, das respectivas penalidades no Sistema Integrado de Registro CEIS/CNEP (SIRCAD).
 
 *O que podemos fazer com a base?* : 
 
