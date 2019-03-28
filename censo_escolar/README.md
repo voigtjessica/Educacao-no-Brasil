@@ -21,4 +21,4 @@ Os microdados do Censo Escolar contém quatro conjuntos de dados:
 
 *Problemas encontrados:* Dados um pouco redundantes, talvez valha a pena a disponibilização em tabelas menores e menos redundantes. Ainda não foi possível realizar uma análise pormenorizada nas variáveis, uma vez que ela é muito extensa. 
 
-*Descrição das variáveis:* Como o codebook é muito extenso, mantenho aqui o arquivo .CSV com a descrição das tabelas.
+*Descrição das variáveis:* Como o codebook é muito extenso, mantenho aqui o [arquivo .CSV](https://github.com/voigtjessica/brazilian_funds_db/blob/master/censo_escolar/Dicion%C3%A1rio%20de%20Dados%20da%20Educa%C3%A7%C3%A3o%20B%C3%A1sica.xlsx) com a descrição das tabelas.
