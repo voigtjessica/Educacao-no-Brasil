@@ -41,14 +41,14 @@ Política de revisão (retirar uma empresa do cadastro)
 ### Conteúdo dos arquivos
 
 |Variável|Descrição|
-|:--:|:--:|
+|:------:|:--:|
 |CNPJ/CPF da Pessoa ou Empresa Sancionada| 18 dígitos, números traços e barras|
 |Razão Social| Razão social sem acento|
 |Nome da Pessoa ou Empresa Sancionada| Nome da pessoa ou empresa com acento|
 |Nome Fantasia da Empresa Sancionada| Nome fantasia sem acento|
 |UF do sancionado| UF onde se localiza a empresa sancionada|
 |Tipo de Pessoa|"Pessoa Jurídica" ou "Pessoa física"|
-|Tipo da Sanção|Sanção que foi imputada à empresa|
+|Tipo da Sanção|Sanção que foi imputada à empresa. "Impedimento - Lei do Pregão" / "Suspensão - Lei de Licitações" / "Proibição - Lei de Improbidade" / "Inidoneidade - Legislação Estadual" / "Inidoneidade - Lei Orgânica TCU" / "Impedimento - Legislação Estadual" / "Inidoneidade - Lei de Licitações" / "Suspensão - Legislação Municipal" / "Decisão judicial liminar/cautelar que impeça contratação"|
 |Data Inicial da Sanção| DD/MM/AAAA|
 |Data Final da Sanção| DD/MM/AAAA|
 |Nome do Órgão Sancionador| Nome de quem imputou a sanção|
