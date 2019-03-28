@@ -38,6 +38,8 @@ Política de revisão (retirar uma empresa do cadastro)
 * Base exigirá atualização constante, o ideal seria ter acesso a alguma API do sistema.
 * Base tem como referência de UF a UF do órgão imputador. Até onde eu reparei, todas as empresas poderiam atender em todo o país. A base ficará muito grande.
 
+---------------
+
 ### Conteúdo dos arquivos
 
 |Variável|Descrição|
@@ -52,3 +54,19 @@ Política de revisão (retirar uma empresa do cadastro)
 |Data Inicial da Sanção| DD/MM/AAAA|
 |Data Final da Sanção| DD/MM/AAAA|
 |Nome do Órgão Sancionador| Nome de quem imputou a sanção|
+
+------------
+
+Descrição "Tipo da Sanção"
+
+|Tipo de sanção| Base legal|Período|Razão|Abrangência|
+|:--:|:---:|:---:|:----:|:---:|
+|Impedimento - Lei do Pregão|  Art. 7º Lei nº 10.520/2002 | Até 5 anos|Não celebrar o contrato, deixar de entregar ou apresentar documentação falsa exigida para o certame, ensejar o retardamento da execução de seu objeto, não mantiver a proposta, falhar ou fraudar na execução do contrato, comportar-se de modo inidôneo ou cometer fraude fiscal| União, Estados, Distrito Federal ou Municípios| 
+|Suspensão - Lei de Licitações| Art. 87 e Art. 88 Lei 8.666/1993| Até 2 anos|  Inexecução total ou parcial do contrato a Administração /  Condenação definitiva por prática dolosa de fraude fiscal / Ats ilícitos contra os objetivos da licitação / Falta de idoneidade por outros atos ilícitos praticados|União, Estados, Distrito Federal ou Municípios|
+|Proibição - Lei de Improbidade|Art. 12 Lei 8.429/1992| De 3 a 10 anos| Condenação por improbridade administrativa (esfera cível: dano ao erário, enriquecimento ilícito, obter vantagem patrimonial em razão do cargo, violação de princípios da adm. pública)|União, Estados, Distrito Federal ou Municípios|
+|Inidoneidade - Legislação Estadual|
+|Inidoneidade - Lei Orgânica TCU|
+|Impedimento - Legislação Estadual|
+|Inidoneidade - Lei de Licitações|
+|Suspensão - Legislação Municipal|
+|Decisão judicial liminar/cautelar que impeça contratação|
