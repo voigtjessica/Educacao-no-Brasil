@@ -11,9 +11,10 @@
 
 *Primeira atualização:* 
 
-*Descrição:* 
+*Descrição:* O Cadastro Nacional de Empresas Inidôneas e Suspensas (CEIS) apresenta a relação de empresas e pessoas físicas que sofreram sanções que implicaram a restrição de participar de licitações ou de celebrar contratos com a Administração Pública.
 
 *O que podemos fazer com a base?* : 
+
     * Cruzar com dados de contratos públicos para identificar se a suspensão está sendo cumprida;
     * Cruzar informações sobre o quadro societário das empresas (QSA) e RAIS para verificar se donos de empresas suspensas estão relacionados com o setor público por alguma outra empresa.
 
