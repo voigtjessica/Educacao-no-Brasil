@@ -4,7 +4,7 @@
 
 *Abrangência:* nacional
 
-*Atualização:* solicitado via LAI
+*Atualização:* Esse banco não é mais atualizado desde a última atualização. As informações a partir de 2016 precisam ser solicitadas via LAI.
 
 *Última atualização: 24/12/2015
 
