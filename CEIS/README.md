@@ -3,7 +3,7 @@
 
 *Fonte:* [http://www.portaltransparencia.gov.br/sancoes/ceis?ordenarPor=nome&direcao=asc](http://www.portaltransparencia.gov.br/sancoes/ceis?ordenarPor=nome&direcao=asc)
 
-*Órgão responsável:* A Controladoria-Geral da União é responsável pelo Sistema Integrado de REgistro CEIS/CNEP, no entanto a Lei 12.846/2013 (Lei Anticorrupção) trouxe a obrigatoriedade para os entes públicos, de todos os Poderes e esferas de governo, de manter o cadastro atualizado. 
+*Órgão responsável:* A Controladoria-Geral da União é responsável pelo Sistema Integrado de Registro CEIS/CNEP, no entanto a Lei 12.846/2013 (Lei Anticorrupção) trouxe a obrigatoriedade para os entes públicos, de todos os Poderes e esferas de governo, de manter o cadastro atualizado. 
 
 *Abrangência:* nacional 
 
@@ -35,8 +35,8 @@ Política de revisão (retirar uma empresa do cadastro)
 
 *Problemas:* 
 
-* Base exigirá atualização constante, o ideal seria ter acesso a alguma API do sistema.
-* Base tem como referência de UF a UF do órgão imputador. Até onde eu reparei, todas as empresas poderiam atender em todo o país. A base ficará muito grande.
+* Não chega a ser um problema, mas dada a atualização constante da planilha o ideal é que o nosso sistema comporte uma integração com a API da CGU: [http://www.transparencia.gov.br/swagger-ui.html](http://www.transparencia.gov.br/swagger-ui.html)
+
 
 ---------------
 
@@ -65,8 +65,8 @@ Descrição "Tipo da Sanção"
 |Suspensão - Lei de Licitações| Art. 87 e Art. 88 Lei 8.666/1993| Até 2 anos|  Inexecução total ou parcial do contrato a Administração /  Condenação definitiva por prática dolosa de fraude fiscal / Ats ilícitos contra os objetivos da licitação / Falta de idoneidade por outros atos ilícitos praticados|União, Estados, Distrito Federal ou Municípios|
 |Proibição - Lei de Improbidade|Art. 12 Lei 8.429/1992| De 3 a 10 anos| Condenação por improbridade administrativa (esfera cível: dano ao erário, enriquecimento ilícito, obter vantagem patrimonial em razão do cargo, violação de princípios da adm. pública)|União, Estados, Distrito Federal ou Municípios|
 |Inidoneidade - Legislação Estadual|
-|Inidoneidade - Lei Orgânica TCU|
+|Inidoneidade - Lei Orgânica TCU|Art. 46 Lei 8.443/1992| Até 5 anos| Art. 46. Verificada a ocorrência de fraude comprovada à licitação,o Tribunal declarará a inidoneidade do licitante fraudador para participar, por até cinco anos, de licitação na Administração Pública Federal | União, Estados, Distrito Federal ou Municípios|
 |Impedimento - Legislação Estadual|
-|Inidoneidade - Lei de Licitações|
+|Inidoneidade - Lei de Licitações| Art. 87 Lei 8.666/1993 | cc |IV - declaração de inidoneidade para licitar ou contratar com a Administração Pública enquanto perdurarem os motivos determinantes da punição ou até que seja promovida a reabilitação perante a própria autoridade que aplicou a penalidade, que será concedida sempre que o contratado ressarcir a Administração pelos prejuízos resultantes e após decorrido o prazo da sanção aplicada com base no inciso anterior|União, Estados, Distrito Federal ou Municípios|
 |Suspensão - Legislação Municipal|
 |Decisão judicial liminar/cautelar que impeça contratação|
