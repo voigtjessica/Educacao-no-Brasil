@@ -1,8 +1,32 @@
 ## Arquivos QSAs por uf.
 
-Essa pasta contém arquivos dos Quadros Societários e de Administradores das Pessoas Jurídicas (QSA), separados por UF. Eles foram atualizados no portal [dados](http://dados.gov.br/dataset/qsa) dia 03/08/2018 e coletados pela Tbrasil dia 19/03/2019.
+Essa pasta contém arquivos dos Quadros Societários e de Administradores das Pessoas Jurídicas (QSA), separados por UF. 
 
-Todos eles contém a mesma estrutura:
+*Fonte:* [http://dados.gov.br/dataset/qsa](http://dados.gov.br/dataset/qsa)
+
+*Órgão responsável:* Receita Federal
+
+*Abrangência:* nacional
+
+*Atualização:* semestral
+
+*Primeira atualização:* Não tenho informações sobre a primeira atualização desta base. A base atual foi atualizada no portal [dados](http://dados.gov.br/dataset/qsa) dia 03/08/2018 e coletada pela Tbrasil dia 19/03/2019.
+
+*Descrição:* Guia com as informações dos quadros societários e de administradores das Pessoas Jurídicas: tipo (PF ou PJ) CNPJ e nome. 
+
+*O que podemos fazer com a base? :*
+
+* Cruzar os dados dos estabelecimentos RAIS com os cnpj e descobrir quem integra o quadro societário
+* Cruzar dados dos estabelecimentos com dados das compras públicas em transparência ativa nos estados e municípios
+* Cruzar informações dos estabelecimentos com as DAP para saber se, de fato, as empresas que contém a DAP estão de acordo com os pré-requisitos.
+
+*Problemas:*
+
+* A base não possui os CPFs. 
+
+*Descrição das variáveis:*
+
+Todos os arquivos contém a mesma estrutura:
 
 Nome variável | Descrição|
 |:---:|:----|
