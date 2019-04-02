@@ -2,6 +2,26 @@
 
 Contém os repasses realizados para o PNAE entre os anos de 1999 e 2018.
 
+*Fonte:* [http://dados.gov.br/dataset/repasses-financeiros-do-pnae](http://dados.gov.br/dataset/repasses-financeiros-do-pnae)
+
+*Órgão responsável:* CGPAE
+
+*Abrangência:* nacional 
+
+*Atualização:* anual
+
+*Última atualização:* 2018
+
+*Descrição:* Contém os repasses realizados para o PNAE entre os anos de 1999 e 2018.
+
+*Problemas encontrados:*Não está claro se são valores correntes ou se estão ajustados.
+
+*O que podemos fazer com ela?*
+
+* Podemos cruzar com os dados do Censo escolar e saber quanto, em média, cada escola recebeu de repasse pelo PNAE por ano. 
+
+
+
 |Nome da variável|Descrição|
 |:---:|:----:|
 |#ANO| Ano do repasse, cada arquivo contém um ano|
