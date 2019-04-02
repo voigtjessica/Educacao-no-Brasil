@@ -20,7 +20,7 @@ Contém os repasses realizados para o PNAE entre os anos de 1999 e 2018.
 
 * Podemos cruzar com os dados do Censo escolar e saber quanto, em média, cada escola recebeu de repasse pelo PNAE por ano. 
 
-
+*Descrição das variáveis*
 
 |Nome da variável|Descrição|
 |:---:|:----:|
