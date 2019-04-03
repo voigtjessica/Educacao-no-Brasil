@@ -8,6 +8,8 @@ O presente repositório contém:
 * Dados de pessoas jurídicas que concorrem a editais de serviços para educação pública
     * [Declaração de Aptidão ao PRONAF (DAP) ativas](https://github.com/voigtjessica/Educacao-no-Brasil/tree/master/DAP)
     * [Quadros Societários e de Administradores das Pessoas Jurídicas (QSA)](https://github.com/voigtjessica/Educacao-no-Brasil/tree/master/QSA)
+    * [Cadastro de empresas idôneas e suspensas (CEIS)](https://github.com/voigtjessica/Educacao-no-Brasil/tree/master/CEIS)
+    * [Relação Anual de Informações Sociais - RAIS ESTABELECIMENTOS](https://github.com/voigtjessica/Educacao-no-Brasil/tree/master/RAIS)
     
 * Dados de execução das políticas 
     * [Censo escolar](https://github.com/voigtjessica/Educacao-no-Brasil/tree/master/censo_escolar)
