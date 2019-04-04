@@ -16,6 +16,6 @@ O presente repositório contém:
     * [Nutricionistas Programa Nacional de Alimentação Escolar (PNAE)](https://github.com/voigtjessica/Educacao-no-Brasil/tree/master/nutricionistas_pnae)
 
 * Dados sobre parâmetros ideais de execução das políticas
-    * [PArâmetros CAQi](https://github.com/voigtjessica/Educacao-no-Brasil/tree/master/Par%C3%A2metros_CAQi)
+    * [Parâmetros CAQi](https://github.com/voigtjessica/Educacao-no-Brasil/tree/master/Par%C3%A2metros_CAQi)
     
 Cada uma das pastas (também linkadas na lista acima) contém uma amostra de arquivos que irão compor o banco de dados do projeto e um README, contendo a descrição do banco, periodicidade, problemas encontrados e codebook.
