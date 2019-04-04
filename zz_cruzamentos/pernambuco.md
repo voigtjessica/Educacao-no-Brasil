@@ -1,6 +1,4 @@
-# Pernambuco
-
-Cruzamentos PE em .rdm (para ter acesso aos gráficos plotados): [http://rpubs.com/voigtjessica/edu_pe](http://rpubs.com/voigtjessica/edu_pe)
+## Pernambuco
 
 1. Qual foi a população de pernambuco matriculada no ensino básico em 2018?
 
@@ -42,6 +40,7 @@ Para ver a população do censo escolar, vou pegar os arquivos Rdata que eu já 
 |37 - Ensino Médio - Normal/Magistério 3ª Série	|1014|
 |38 - Ensino Médio - Normal/Magistério 4ª Série	|1015|
 
+OBSERVAÇÃO: Existem 123.925 entradas como "0". Esse valor não consta no dicionário de dados do INEP. Enquanto eu aguardo o pedido de acesso à informação, vou retira-lo da análise inserindo "0" no objeto not_basico (veja abaixo)
 
 Carregando os bancos do censo escolar:
 
@@ -58,8 +57,8 @@ load("C:/Users/coliv/Documents/brazilian_funds_db/dbs/microdados_educacao_basica
 
 load("C:/Users/coliv/Documents/brazilian_funds_db/dbs/microdados_educacao_basica_2018/microdados_ed_basica_2018/DADOS/Pernambuco/turmas_pe.Rdata")
 
-#retirando alunos que não são do ensino básico (Técnico não integrado, supletivo e EJA)
-not_basico <- c(29,34,39,40,68,65,67,69,70,71,72,73,74)
+#retirando alunos que não são do ensino básico (Técnico não integrado, supletivo , EJA e infantil e fundamental multietapa)
+not_basico <- c(0,56,29,34,39,40,68,65,67,69,70,71,72,73,74)
 
 
 #criando um objeto para ajustar alunos que estão no fundamental de 8 e de 9 anos.
@@ -82,12 +81,50 @@ matriculas_pe_basico <- matriculas_pe %>%
 
 Distribuição dos alunos:
 ```{r, echo = T, eval = TRUE, warning=FALSE}
+library(dplyr)
+library(ggplot2)
+
+#abrindo tabela auxiliar:
+load("C:/Users/coliv/Documents/brazilian_funds_db/dbs/microdados_educacao_basica_2018/microdados_ed_basica_2018/DADOS/Pernambuco/td_etapas.Rdata")
 
 matriculas_pe_basico %>% 
+  mutate(as.character(ETAPA_AJUSTADA)) %>%
   group_by(ETAPA_AJUSTADA) %>%
-  summarize(alunos_mil = n()/1000, na.rm=TRUE) %>%
-  arrange(ETAPA_AJUSTADA) %>%
+  summarize(alunos_mil = n()/1000) %>%
+  arrange(ETAPA_AJUSTADA)  %>%
+  left_join(td_etapas, by=c("ETAPA_AJUSTADA"))%>%
   ggplot() +
-  geom_col(aes(x=ETAPA_AJUSTADA,y=alunos_mil))
+  geom_col(aes(x=NOME_ETAPA ,y=alunos_mil, fill=NOME_ETAPA))
 
 ```
+
+2. Se existe uma estrutura mínima para atender aos parâmetros do CAQi?
+
+```{r, echo = T, eval = TRUE, warning=FALSE}
+
+load("~/brazilian_funds_db/dbs/Parâmetros_CAQi/estruturas.Rdata")
+load("~/brazilian_funds_db/dbs/Parâmetros_CAQi/alunos_por_sala.Rdata")
+
+#retirando alunos que não são do ensino básico (Técnico não integrado, supletivo e EJA)
+not_basico <- c(0,56,29,34,39,40,68,65,67,69,70,71,72,73,74)
+
+turma_caqi <- turmas_pe %>%
+  filter(TP_CATEGORIA_ESCOLA_PRIVADA == 0,    #filtrar apenas públicas
+         !TP_ETAPA_ENSINO %in% not_basico) %>%            #aquelas com etapa de ensino conhecida
+  select(CO_ENTIDADE,NU_DURACAO_TURMA, QT_MATRICULAS, TP_ETAPA_ENSINO, CO_UF) %>%
+  left_join(ajuste_etapa, by=c("TP_ETAPA_ENSINO")) %>%
+  left_join(td_etapas, by=c("ETAPA_AJUSTADA")) %>%
+  left_join(escolas_pe, by=c("CO_ENTIDADE")) %>%
+  select(CO_ENTIDADE,NU_DURACAO_TURMA, QT_MATRICULAS, TP_ETAPA_ENSINO, NOME_ETAPA, IN_SALA_DIRETORIA,
+         IN_SALA_PROFESSOR, IN_LABORATORIO_INFORMATICA, IN_QUADRA_ESPORTES_COBERTA, IN_COZINHA,
+         IN_BIBLIOTECA, IN_PARQUE_INFANTIL, IN_BERCARIO)
+
+
+#média matrículas por etapa
+
+turma_caqi %>%
+  group_by(NOME_ETAPA, ) %>%
+  summarise(media_alunos = mean(QT_MATRICULAS))
+            
+```
+
