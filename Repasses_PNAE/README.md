@@ -32,3 +32,5 @@ Contém os repasses realizados para o PNAE entre os anos de 1999 e 2018.
 |VALOR_TOTAL_ESCOLAS_PNAE| Valor repassado para todas as escolas naquele município, esfera e modalidade de ensino*.|
 
 *Não há informações se os valores são correntes ou se estão ajustados para uma data específica. Entrei em contato com o cgpae para confirmar essa informação.
+
+OBS: [Regras de repasses do PNAE](https://www.fnde.gov.br/component/k2/item/95?Itemid=841) 
