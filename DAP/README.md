@@ -48,3 +48,16 @@ Esses arquivos contém apenas as DAPs ativas naquele período ao que o banco se 
 |CNPJ_EMISSOR| CNPJ do emissor da DAP|
 |RAZAO_SOCIAL_EMISSOR| Razão social do emissor da DAP|
 |nome_arq| nome do arquivo, que se inicia com a data relativa aquele banco | 
+
+
+---
+
+Enquadramentos da DAP:
+
+- Grupo “A”: agricultores familiares assentados pelo Programa Nacional de Reforma Agrária (PNRA) ou beneficiários do Programa Nacional de Crédito Fundiário (PNCF) que não contrataram operação de investimento do Programa de Crédito Especial para a Reforma Agrária (Procera) ou que ainda não contrataram o limite de operações ou de valor de crédito de investimento para estruturação no âmbito do Programa Nacional de Fortalecimento da Agricultura Familiar (Pronaf);
+
+- Grupo “B”: agricultores familiares com renda familiar anual de até R$ 20 mil;
+
+- Grupo “A/C”: agricultores familiares assentados pelo PNRA ou beneficiários do PNCF que (1) tenham contratado a primeira operação no Grupo “A” e (2) não tenham contratado financiamento de custeio, exceto no próprio Grupo “A/C”; e
+
+- Grupo “V”: agricultores familiares com renda familiar anual de até R$ 360 mil.
