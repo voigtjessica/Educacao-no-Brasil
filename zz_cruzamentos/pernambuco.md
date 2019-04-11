@@ -5,9 +5,7 @@ date: "2 de abril de 2019"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+Versão HTML: [http://rpubs.com/voigtjessica/483008](http://rpubs.com/voigtjessica/483008)
 
 Essa é uma primeira versão dos cruzamentos de bases de dados levantadas até o momento para o projeto Tá de Pé Educação.
 
