@@ -4,6 +4,7 @@ O presente repositório contém:
 
 * Dados de repasses para políticas educacionais
     * [Repasses PNAE](https://github.com/voigtjessica/Educacao-no-Brasil/tree/master/Repasses_PNAE)
+    * [Repasses SIMEC](https://github.com/voigtjessica/Educacao-no-Brasil/tree/master/SIMEC)
     
 * Dados de pessoas jurídicas que concorrem a editais de serviços para educação pública
     * [Declaração de Aptidão ao PRONAF (DAP) ativas](https://github.com/voigtjessica/Educacao-no-Brasil/tree/master/DAP)
