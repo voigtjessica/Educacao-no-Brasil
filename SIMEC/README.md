@@ -1,20 +1,20 @@
 # SIMEC
 
-Descrição: Contém as informações sobre o andamento das obras pactuadas no âmbito do programa [PROINFÂNCIA](http://www.fnde.gov.br/programas/proinfancia/sobre-o-plano-ou-programa/sobre-o-proinfancia) . Essa informação é inserida periodicamente pelos entes executores para a garantia dos repasses para a execução da obra.
+**Descrição:** Contém as informações sobre o andamento das obras pactuadas no âmbito do programa [PROINFÂNCIA](http://www.fnde.gov.br/programas/proinfancia/sobre-o-plano-ou-programa/sobre-o-proinfancia) . Essa informação é inserida periodicamente pelos entes executores para a garantia dos repasses para a execução da obra.
 
-Fonte: [http://simec.mec.gov.br/painelObras/index.php](http://simec.mec.gov.br/painelObras/index.php) 
+**Fonte:** [http://simec.mec.gov.br/painelObras/index.php](http://simec.mec.gov.br/painelObras/index.php) 
 
-Órgão responsável: FNDE
+**Órgão responsável:** FNDE
 
-Abrangência: nacional
+**Abrangência:** nacional
 
-Atualização: diária (é esperado que cada ente atualize o campo relativo às suas obras em um intervalo aproximado de dois meses, na prática não temos como garantir que todas as obras serão atualizadas nesse período).
+**Atualização:** diária (é esperado que cada ente atualize o campo relativo às suas obras em um intervalo aproximado de dois meses, na prática não temos como garantir que todas as obras serão atualizadas nesse período).
 
-Última atualização: Planilhas atual é de 24/04/2019. 
+**Última atualização:** Planilhas atual é de 24/04/2019. 
 
-*Problemas encontrados:* Dados disponíveis sobre as etapas de execução das obras, valores dos repasses, endereços das construções, datas de assinatura de contrato e previsão de entrega são muitas vezes imprecisos ou estão ausentes. Como esses dados também embasam o projeto "Tá de Pé", já realizamos dois estudos sobre esses dados, o primeiro 2m 2017 mais focado nas [inconsistências dos dados do SIMEC](https://www.transparencia.org.br/downloads/publicacoes/RelatorioTadePe23082017.pdf) e outro em 2018 que tratou das [obras com problemas](https://www.transparencia.org.br/downloads/publicacoes/Relat%C3%B3rio_campanha%20TdP_final.pdf) (obras não iniciadas, paralisadas, atrasadas e sem endereço).
+**Problemas encontrados:** Dados disponíveis sobre as etapas de execução das obras, valores dos repasses, endereços das construções, datas de assinatura de contrato e previsão de entrega são muitas vezes imprecisos ou estão ausentes. Como esses dados também embasam o projeto "Tá de Pé", já realizamos dois estudos sobre esses dados, o primeiro 2m 2017 mais focado nas [inconsistências dos dados do SIMEC](https://www.transparencia.org.br/downloads/publicacoes/RelatorioTadePe23082017.pdf) e outro em 2018 que tratou das [obras com problemas](https://www.transparencia.org.br/downloads/publicacoes/Relat%C3%B3rio_campanha%20TdP_final.pdf) (obras não iniciadas, paralisadas, atrasadas e sem endereço).
 
-O que podemos fazer com ela?
+**O que podemos fazer com ela?** Podemos verificar atrasos e problemas de entrega nas obras financiadas pelo PROINFÂNCIA e identificar fraudes.
 
 
 ### Codebook:
