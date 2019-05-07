@@ -1,4 +1,4 @@
-#SIGPC - Sistema de Gestão de Prestação de Contas.
+# SIGPC - Sistema de Gestão de Prestação de Contas.
 
 **Descrição:**
 
