@@ -2,6 +2,8 @@
 
 O presente repositório contém:
 
+* Teste de cruzamentos usando dados de Pernambuco: [http://rpubs.com/voigtjessica/483008](http://rpubs.com/voigtjessica/483008)
+
 * Dados de repasses para políticas educacionais
     * [Repasses PNAE](https://github.com/voigtjessica/Educacao-no-Brasil/tree/master/Repasses_PNAE)
     * [Repasses SIMEC](https://github.com/voigtjessica/Educacao-no-Brasil/tree/master/SIMEC)
