@@ -56,3 +56,5 @@ Recebemos um arquivo .xlsx ("contratos_editais_tcrj") contendo 6 abas. Cada aba 
 |VL_TOTALPREVISTO| Valor do total previsto no contrato |
 |NM_FORNECEDOR| Nome do fornecedor |
 |DE_OBJETO| Objeto da contratação |
+
+Enviei no dia 24/06 um e-mail ao TCE-RJ pedindo esclarecimentos adicionais quanto às colunas que contém "?" .
