@@ -20,7 +20,7 @@ Recebemos um arquivo .xlsx ("contratos_editais_tcrj") contendo 6 abas. Cada aba 
 |NM_UNIMED| Unidade de medida |
 |VL_UNITARIO| Valor unitário |
 |VL_ESTIMADO| Valor estimado para todo o edital |
-|CD_VENCEDORPERDEDOR| Códigos** Ainda não está claro o que é, encaminhei um e-mail para o TC |
+|CD_VENCEDORPERDEDOR| 1 Vencedor, 2 Perdedor, 3 Desclassificado - Preço Inexeqüível, 4 Desclassificado - Preço Acima do Limite, 5  Desclassificado - Proposta em desacordo com o EditaL, 6  Não Cotado |
 
 #### mun_contratos.Rdata e est_contratos.Rdata
 
@@ -36,10 +36,10 @@ Recebemos um arquivo .xlsx ("contratos_editais_tcrj") contendo 6 abas. Cada aba 
 |CD_CICCONTRATADO| CNPJ da empresa contratada ?? |
 |DT_ASSINATURACONTRATO| Data de assinatura do contrato |
 |DT_VENCIMENTOCONTRATO| Data de vencimento do contrato |
-|CD_FONTERECURSO| ?? |
-|CD_FUNCAO| ?? |
-|CD_PROGRAMA| ?? |
-|NU_PROJETOATIVIDADE| ?? |
+|CD_FONTERECURSO| Coluna vazia - "Fontes de recursos são agrupamentos de naturezas de receita objetivando uma destinação legal" |
+|CD_FUNCAO| Coluna vazia - "Funções são áreas de atuação do governo (Saúde, Educação, Segurança, etc). Representam o maior nível de agregação das diversas áreas de despesas próprias do setor público" |
+|CD_PROGRAMA| Coluna vazia - "programas são conjuntos de ações que articulam a atuação do governo"|
+|NU_PROJETOATIVIDADE| Coluna vazia - "Projetos e atividades são instrumentos orçamentários de viabilização dos programas. A Atividade é um instrumento de programação que se realiza continuamente, mantendo as ações do governo. O Projeto é um instrumento de programação que se realiza num período determinado e resulta na expansão ou no aperfeiçoamento das ações de governo" |
 |DE_OBJETIVO| Objetivo do contrato |
 
 ### mun_dispensas
