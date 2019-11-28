@@ -140,6 +140,7 @@ partir de 2017, os dados passaram a ser bimestrais, sendo o período 6 a consoli
 *Arquivo: Indicadores*
 
 |Nome da Coluna| Descrição do Dado|
+|--|--|
 |AN_EXERCICIO| Ano base da declaração|
 |TP_PERIODO| Tipo do período ( A-anual, S-semestral, B-bimestral)|
 |NU_PERIODO| Período do ano base a que se refere a declaração (1,2,3,4,5,6). De 2008 a 2016, o período 1 refere-se à declaração anual. A
