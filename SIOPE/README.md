@@ -27,8 +27,7 @@ O Sistema de Informações sobre Orçamentos Públicos em Educação (SIOPE) é 
 |--|--|
 |NA_EXERCICIO| Ano base da declaração|
 |TP_ PERIODO| Tipo do periodo ( A-anual, S-semestral, B-bimestral)|
-|NU_ PERIODO| Período do ano base a que se refere a declaração (1,2,3,4,5,6). De 2008 a 2016, o período 1 refere-se à declaração anual. A
-partir de 2017, os dados passaram a ser bimestrais, sendo o período 6 a consolidação anual|
+|NU_ PERIODO| Período do ano base a que se refere a declaração (1,2,3,4,5,6). De 2008 a 2016, o período 1 refere-se à declaração anual. A partir de 2017, os dados passaram a ser bimestrais, sendo o período 6 a consolidação anual|
 |CO_UF |Código da UF. Mesmo código usado pelo IBGE.|
 |NO_UF |Nome da unidade federativa|
 |CO_MUNICIPIO |Código do município. É o código completo usado pelo IBGE.|
@@ -56,8 +55,7 @@ partir de 2017, os dados passaram a ser bimestrais, sendo o período 6 a consoli
 |--|--|
 |AN_EXERCICIO| Ano base da declaração|
 |TP_PERIODO| Tipo do período ( A-anual, S-semestral, B-bimestral)|
-|NU_PERIODO| Período do ano base a que se refere a declaração (1,2,3,4,5,6). De 2008 a 2016, o período 1 refere-se à declaração anual. A
-partir de 2017, os dados passaram a ser bimestrais, sendo o período 6 a consolidação anual|
+|NU_PERIODO| Período do ano base a que se refere a declaração (1,2,3,4,5,6). De 2008 a 2016, o período 1 refere-se à declaração anual. A partir de 2017, os dados passaram a ser bimestrais, sendo o período 6 a consolidação anual|
 |CO_UF| Código do município.É o código completo usado pelo IBGE.|
 |NO_UF| Nome da unidade federativa|
 |CO_MUNICIPIO| Código do município. E o mesmo código usado pelo IBGE.|
@@ -72,8 +70,7 @@ partir de 2017, os dados passaram a ser bimestrais, sendo o período 6 a consoli
 |Nome da Coluna| Descrição do Dado|
 |--|--|
 |AN_EXERCICIO| Ano base da declaração|
-|NU_PERIODO| Período do ano base a que se refere a declaração (1,2,3,4,5,6). De 2008 a 2016, o período 1 refere-se à declaração anual. A
-partir de 2017, os dados passaram a ser bimestrais, sendo o período 6 a consolidação anual|
+|NU_PERIODO| Período do ano base a que se refere a declaração (1,2,3,4,5,6). De 2008 a 2016, o período 1 refere-se à declaração anual. A partir de 2017, os dados passaram a ser bimestrais, sendo o período 6 a consolidação anual|
 |ME_EXERCICIO| Mês do ano em que foram pagos os vencimentos para o profissional de educação (1 a 12)|
 |CO_UF| Código da UF. Mesmo código usado pelo IBGE.|
 |NO_UF| Nome da unidade federativa|
@@ -97,8 +94,7 @@ partir de 2017, os dados passaram a ser bimestrais, sendo o período 6 a consoli
 |--|--|
 |AN_EXERCICIO| Ano base da declaração|
 |TP_PERIODO| Tipo do período ( A-anual, S-semestral, B-bimestral)|
-|NU_ PERIODO| Período do ano base a que se refere a declaração (1,2,3,4,5,6). De 2008 a 2016, o período 1 refere-se à declaração anual. A
-partir de 2017, os dados passaram a ser bimestrais, sendo o período 6 a consolidação anual|
+|NU_ PERIODO| Período do ano base a que se refere a declaração (1,2,3,4,5,6). De 2008 a 2016, o período 1 refere-se à declaração anual. A partir de 2017, os dados passaram a ser bimestrais, sendo o período 6 a consolidação anual|
 |CO_UF| Código da UF. Mesmo código usado pelo IBGE.|
 |NO_UF| Nome da unidade federativa|
 |CO_MUNICIPIO| Código do município.É o código completo usado pelo IBGE.|
