@@ -3,6 +3,11 @@
 ### O que é SIOPE?
 O Sistema de Informações sobre Orçamentos Públicos em Educação (SIOPE) é uma ferramenta eletrônica de coleta, processamento e acesso público às informações dos orçamentos de educação da União, dos estados, do Distrito Federal e dos municípios. Ela é mantida pelo FNDE.
 
+Localização:[https://www.fnde.gov.br/index.php/fnde_sistemas/siope/relatorios/arquivos-dados-analiticos](https://www.fnde.gov.br/index.php/fnde_sistemas/siope/relatorios/arquivos-dados-analiticos)
+<br>
+Encoding: ISO 8859-1 <br>
+Separador: ";"
+
 *Arquivo : Receita Total*
 
 |Nome da Coluna| Descrição do Dado|
